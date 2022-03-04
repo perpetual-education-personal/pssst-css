@@ -1,13 +1,12 @@
 /* P reset */
-@import 'reset.css';
+@import 'preset.css';
 
 /* S etup */
 @import 'setup.css';
 
-@import 'developer-styles.css';
-
 /* S setings */
 @import 'settings.css';
+@import 'developer-styles.css';
 
 /* S tructure */
 @import 'structure.css';
