@@ -6,42 +6,22 @@
 
 @import 'developer-styles.css';
 
+/* S setings */
 @import 'settings.css';
 
+/* S tructure */
 @import 'structure.css';
 
+/* T ypography */
 @import 'typography.css';
 
+/* C omponents */
 @import 'components.css';
 
-your-cool-module-component-thing {
-	display: block;
-}
+/* S tuff */
+@import 'modules.css';
 
-amazing-swatches {
-	display: flex;
-}
-
-amazing-swatches swatch {
-	display: block;
-	padding: 20px;
-}
-
-amazing-swatches swatch.ink {
-	background-color: var(--ink);
-}
-
-amazing-swatches swatch.paper {
-	background-color: var(--paper);
-}
-
-amazing-swatches swatch.highlight {
-	background-color: var(--highlight);
-}
-
-amazing-swatches swatch.color {
-	background-color: var(--color);
-}
+/* S ections */
 
 body {
 	background-color: var(--paper);

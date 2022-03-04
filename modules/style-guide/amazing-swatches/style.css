@@ -1,0 +1,25 @@
+
+amazing-swatches {
+	display: flex;
+}
+
+amazing-swatches swatch {
+	display: block;
+	padding: 20px;
+}
+
+amazing-swatches swatch.ink {
+	background-color: var(--ink);
+}
+
+amazing-swatches swatch.paper {
+	background-color: var(--paper);
+}
+
+amazing-swatches swatch.highlight {
+	background-color: var(--highlight);
+}
+
+amazing-swatches swatch.color {
+	background-color: var(--color);
+}
