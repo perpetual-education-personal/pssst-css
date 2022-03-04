@@ -1,0 +1,5 @@
+
+body * {
+	border: 1px solid hsl(200, 100%, 80%);
+	padding: 4px;
+}

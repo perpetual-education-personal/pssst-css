@@ -3,3 +3,11 @@
 
 /* S etup */
 @import 'setup.css';
+
+@import 'developer-styles.css';
+
+
+
+your-cool-module-component-thing {
+	display: block;
+}
