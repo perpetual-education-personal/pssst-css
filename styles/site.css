@@ -6,8 +6,25 @@
 
 @import 'developer-styles.css';
 
-
+@import 'settings.css';
 
 your-cool-module-component-thing {
 	display: block;
+}
+
+amazing-swatches {
+	display: flex;
+}
+
+amazing-swatches swatch {
+	display: block;
+}
+
+amazing-swatches swatch.color {
+	background-color: var(--color);
+}
+
+body {
+	background-color: var(--paper);
+	color: var(--ink);
 }
