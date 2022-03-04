@@ -1,0 +1,20 @@
+
+call-to-action {
+  display: block;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  /* */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+call-to-action a {
+  margin-top:  20px;
+}
+
+@media (min-width: 600px) {
+  call-to-action {
+    padding: 100px;
+  }
+}
