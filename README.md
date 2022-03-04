@@ -8,4 +8,4 @@ on the quest to obtain glory and notoriety in a field where everyone is absolutl
 
 * [x] Add base HTML document structure
 * [x] Link CSS file
-* [ ] Assemble Voltron
+* [x] Assemble Voltron

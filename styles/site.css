@@ -18,12 +18,18 @@
 /* C omponents */
 @import 'components.css';
 
-/* S tuff */
+/* S tuff (modules) */
 @import 'modules.css';
 
-/* S ections */
+/* S ections and more stuff */
 
+/* then other contextual styles */
 body {
 	background-color: var(--paper);
 	color: var(--ink);
+}
+
+.my-fantastic-image {
+	max-width: 300px;
+	border-bottom-right-radius: 30px;
 }
