@@ -12,6 +12,8 @@
 
 @import 'typography.css';
 
+@import 'components.css';
+
 your-cool-module-component-thing {
 	display: block;
 }
