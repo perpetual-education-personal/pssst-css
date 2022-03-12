@@ -1,6 +1,6 @@
 # PSSST (CSS)
 
-A CSS methodology so great, it needed a name...
+A CSS methodology so great, it needed a name... ;)
 
 ## So far...
 
@@ -24,7 +24,7 @@ on the quest to obtain glory and notoriety in a field where everyone is absolutl
 * [theming modules in context: part 1](https://codepen.io/perpetual-education/pen/QWpdQxy?editors=1100)
 * [theming modules in context: part 2](https://codepen.io/perpetual-education/pen/GRmQXge?editors=1100)
 
-You read @sheriffderek's thoughts [on type-patterns and style guides](https://css-tricks.com/on-type-patterns-and-style-guides/) on CSS Tricks.
+You can read @sheriffderek's thoughts [on type-patterns and style guides](https://css-tricks.com/on-type-patterns-and-style-guides/) on CSS Tricks.
 
 Working on [a page with some examples](https://pssst-css.surge.sh/examples.html), but we don't want to complicate the base idea... so, we will see.
 
