@@ -1,4 +1,5 @@
 /* Should we pull in @fonts here? */
+/* don't think you can... might have to be higher up (the top of) the food chain! */
 
 .loud-voice	{
 	font-family: sans-serif;
@@ -21,16 +22,17 @@
 	line-height: 1.4;
 }
 
-:is(.calm-voice, p, li) em {
+:is(.calm-voice, p) em {
 	font-style: italic;
 }
 
-:is(.calm-voice, p, li) strong {
+:is(.calm-voice, p) strong {
 	font-weight: 700;
 }
 
 /* these would be scoped to section or to an article element */
 /* this is just a loose setting for now */
+/* or smaller group of article-like styles such as a <text-content> custom element */
 p + p {
 	margin-top: 1em;
 }
