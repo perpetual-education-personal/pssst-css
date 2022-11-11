@@ -20,6 +20,7 @@ html {
 	html {
 		--black: #111111;
 		--white: #efefef;
+
 		--neutral-stuffs: gray;
 
 		--color: #9ec9eb;
@@ -29,7 +30,8 @@ html {
 
 		--corners: 10px; /* or whatevers */
 
-		--paper: red;
-		--ink: yellow;
+		--paper:  hsla(217, 8%, 13%, 1.00); 
+		--paper2: hsla(217, 6%, 17%, 1.00);  /*bunker*/
+		--ink: hsla(0, 0%, 96%, 1.00);  /*whitesmoke*/
 	}
 }
