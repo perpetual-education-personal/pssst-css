@@ -12,15 +12,14 @@ html {
 
 	--corners: 10px; /* or whatevers */
 
-	--paper: var(--white);
-	--ink: var(--black);
+	--paper: hsla(209, 90%, 50%, 1.00); /*shadier dodgerblue*/
+	--ink: white;
 }
 
 @media (prefers-color-scheme: dark) {
 	html {
 		--black: #111111;
 		--white: #efefef;
-
 		--neutral-stuffs: gray;
 
 		--color: #9ec9eb;

@@ -1,6 +1,6 @@
 
 body * {
-	border: 1px solid hsl(200, 100%, 80%);
+	border: 1px solid hsla(207, 100%, 80%, 1.00);
 	padding: 4px;
 }
 
