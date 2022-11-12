@@ -33,3 +33,9 @@ svg {
   display: block;
   width: 100%;
 }
+
+
+// selects for custom elements
+:where(:not(:defined)) {
+	display: block;
+}
