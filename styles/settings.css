@@ -5,8 +5,8 @@ html {
 
 	--neutral-stuffs: gray;
 
-	--color: #9ec9eb;
-	--highlight: #aadee9;
+	--color: hsla(206, 66%, 77%, 1.00);
+	--highlight: hsla(190, 90%, 60%, 1.00);
 
 	--shadow: rgba(0,0,0,.8);
 
@@ -23,8 +23,8 @@ html {
 
 		--neutral-stuffs: gray;
 
-		--color: #9ec9eb;
-		--highlight: #aadee9;
+		--color: hsla(206, 66%, 47%, 1.00);
+		--highlight: hsla(190, 90%, 40%, 1.00);
 
 		--shadow: rgba(0,0,0,.8);
 
