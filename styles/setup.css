@@ -1,32 +1,48 @@
-
 html {
   box-sizing: border-box;
 }
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 } /* https://www.paulirish.com/2012/box-sizing-border-box-ftw */
 
 a {
-	display: block;
-	text-decoration: none;
-	color: inherit;
+  display: block;
+  text-decoration: none;
+  color: inherit;
 }
 
 p a {
-	display: inline;
-	color: blue;
-	text-decoration: underline;
+  display: inline;
+  color: blue;
+  text-decoration: underline;
+}
+
+/* https://css-tricks.com/overriding-default-button-styles/ */
+button:hover,
+button:focus {
+  filter: brightness(1.5);
+}
+
+button:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+}
+
+button:active {
+  transform: scale(0.99);
 }
 
 picture {
-	display: block;
-	overflow: hidden;
+  display: block;
+  overflow: hidden;
 }
 
 img {
-	display: block;
-	width: 100%;
-	height: auto;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 svg {
@@ -34,8 +50,7 @@ svg {
   width: 100%;
 }
 
-
 /* selects for custom elements */
 :where(:not(:defined)) {
-	display: block;
+  display: block;
 }
