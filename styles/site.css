@@ -1,4 +1,4 @@
-/* P reset */
+/* P reset   (resets) */
 @import 'preset.css';
 
 /* S etup */
@@ -6,7 +6,7 @@
 
 /* S setings */
 @import 'settings.css';
-@import 'developer-styles.css';
+/*@import 'developer-styles.css';*/
 
 /* S tructure */
 @import 'structure.css';
@@ -21,6 +21,17 @@
 @import 'modules.css';
 
 /* S ections and more stuff */
+.section-name {
+
+}
+
+.page-name .section-name {
+
+}
+
+.theme {
+	
+}
 
 /* then other contextual styles */
 body {

@@ -1,8 +1,12 @@
 /* Should we pull in @fonts here? */
-/* don't think you can... might have to be higher up (the top of) the food chain! */
+/* 
+	don't think you can... might have to be higher up (the top of) the food chain! 
+	but ideally... they'd be here...  $todo - look into this
+*/
 
 body {
-	-webkit-font-smoothing: antialiased; /* because Brian said to */
+	-webkit-font-smoothing: antialiased; 
+	/* because Brian said to -- $todo confirm */
 }
 
 .loud-voice {
