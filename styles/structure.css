@@ -14,10 +14,12 @@ main {
 
 inner-column {
 	display: block;
-	width: 98%;
+	/*	width: 98%; maybe? */
 	max-width: 1100px; /* could be a variable in settings */
 	margin-inline: auto; /* horizontally center this by default */
 	padding: 30px 16px; /* a loose default */
+
+	container-type: inline-size;
 }
 
 /*.site-header {
