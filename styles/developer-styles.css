@@ -6,12 +6,17 @@ body * {
 
 section:nth-of-type(odd) {
 	background-color: rgba(0,0,0,.03);
-}
+} /* good example of where we can talk about @layers */
+/* this should be easily overwritable... or should it? */
 
 picture img {
 	opacity: 0;
 }
 
 picture {
-	background-color: var(--shadow);
+	background-color: rgb( 0 0 0 / .1);
+}
+
+inner-column {
+	border-style: dashed;
 }
