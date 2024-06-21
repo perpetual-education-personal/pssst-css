@@ -9,14 +9,15 @@ body {
 	/* because Brian said to -- $todo confirm */
 }
 
-.loud-voice {
+.calm-voice, p, li {
 	font-family: sans-serif;
-	font-size: clamp(36px, 5vw, 60px);
+	font-size: 1rem;
+	line-height: 1.4;
 }
-@media (min-width: 600px) {
-	.loud-voice {
-		font-weight: 700; /* or variable font */
-	}
+
+.strong-voice {
+	font-family: sans-serif;
+	font-size: 24px;
 }
 
 .attention-voice {
@@ -24,12 +25,15 @@ body {
 	font-size: 30px;
 }
 
-.calm-voice,
-p,
-li {
+.loud-voice {
 	font-family: sans-serif;
-	font-size: 1rem;
-	line-height: 1.4;
+	font-size: clamp(36px, 5vw, 60px);
+}
+
+@media (min-width: 600px) {
+	.loud-voice {
+		font-weight: 700; /* or variable font */
+	}
 }
 
 :is(.calm-voice, p) em {
