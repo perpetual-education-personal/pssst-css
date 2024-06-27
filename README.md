@@ -2,17 +2,15 @@
 
 A CSS methodology so great, it needed a name... ;)
 
-## So far...
+{{ What is this? Who is it for? What problem does it solve? }}
 
-on the quest to obtain glory and notoriety in a field where everyone is absolutly terrified of key:value pairs...
-
-* [x] Add base HTML document structure
-* [x] Link CSS file
-* [x] Assemble Voltron
-
-## Site
+## Live Example
 
 [pssst-css.surge.sh](https://pssst-css.surge.sh)
+
+## What You Should Do
+
+This is meant to be downloaded as a one-off to get your project started. It contains styles and structures to help scaffold your ideas. It is not an updatable dependency.
 
 ## Some explanation?
 
