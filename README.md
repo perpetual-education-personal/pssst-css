@@ -10,6 +10,7 @@ on the quest to obtain glory and notoriety in a field where everyone is absolutl
 ## Site
 
 [pssst-css.surge.sh](https://pssst-css.surge.sh)
+This is meant to be downloaded as a one-off to get your project started. It contains styles and structures to help scaffold your ideas. It is not an updatable dependency.
 
 ## Some explanation?
 
