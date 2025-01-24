@@ -14,7 +14,7 @@ html {
 	--corners: 10px; /* or whatevers */
 
 	--paper: hsla(209, 90%, 50%, 1.00); /*shadier dodgerblue*/
-	--ink: white;
+	--ink: var(--white);
 }
 
 @media (prefers-color-scheme: dark) {
