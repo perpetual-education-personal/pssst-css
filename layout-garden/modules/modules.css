@@ -1,0 +1,18 @@
+@import 'site-map/style.css';
+
+.america {
+	background-color: red;
+}
+
+section {
+	background-color: var(--backdrop);
+}
+
+.site-header {
+	background-color: black;
+	color: white;
+
+	position: sticky;
+	top: 0;
+	z-index: 5;
+}
