@@ -20,17 +20,11 @@
 @import 'modules.css';
 
 /* S ections and more stuff */
-.section-name {
+.section-name {}
 
-}
+.page-name .section-name {}
 
-.page-name .section-name {
-
-}
-
-.theme {
-
-}
+.theme {}
 
 /* then other contextual styles */
 body {
@@ -41,4 +35,17 @@ body {
 .my-fantastic-image {
 	max-width: 300px;
 	border-bottom-right-radius: 30px;
+}
+
+/*A utility class for creating screen-reader specific elements. Maybe put it in its own file?  */
+.screen-reader-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: no-wrap;
+	border: 0;
 }
