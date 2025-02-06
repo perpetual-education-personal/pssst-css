@@ -32,10 +32,20 @@
 
 }
 
+.theme-name {
+	.page-name {
+		.section-name {
+			color: red;
+
+			/* we have native nesting now! */
+		}
+	}
+}
+
 /* then other contextual styles */
 body {
-	background-color: var(--paper);
-	color: var(--ink);
+/*	background-color: var(--paper);
+	color: var(--ink);*/
 }
 
 .my-fantastic-image {
