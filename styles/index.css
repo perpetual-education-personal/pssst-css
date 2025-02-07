@@ -1,11 +1,12 @@
 /* P reset   (resets) */
-@import 'preset.css';
+@import 'preset/reset.css';
 
-/* S etup */
+/* S setup */
 @import 'setup.css';
 
 /* S setings */
-@import 'settings.css';
+@import 'settings/color.css';
+/*@import 'settings/developer-styles.css';*/
 
 /* S tructure */
 @import 'structure.css';
@@ -14,10 +15,32 @@
 @import 'typography.css';
 
 /* C omponents */
-@import 'components.css';
+@import 'components/forms.css';
 
 /* S tuff (modules) */
-@import 'modules.css';
+/*@import '../modules/your-cool-module-component-thing/style.css';*/
+@import '../modules/style-guide/amazing-swatches/style.css';
+/* these don't really feel like "layers" to me... */
+
+
+@layer 
+	reset, 
+	setup, 
+	color, 
+	structure, 
+	typography, 
+	forms, 
+	modules
+;
+
+swatch {
+	&.highlight {
+		color: lime; 
+	}
+}
+
+/* beats out amazing-swatches swatch.highliht */
+
 
 /* S ections and more stuff */
 .section-name {
@@ -52,3 +75,4 @@ body {
 	max-width: 300px;
 	border-bottom-right-radius: 30px;
 }
+

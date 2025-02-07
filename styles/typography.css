@@ -4,59 +4,62 @@
 	but ideally... they'd be here...  $todo - look into this
 */
 
-body {
-	-webkit-font-smoothing: antialiased; 
-	/* because Brian said to -- $todo confirm */
-}
-
-.calm-voice, p, li {
-	font-family: sans-serif;
-	font-size: 1rem;
-	line-height: 1.4;
-}
-
-.strong-voice {
-	font-family: sans-serif;
-	font-size: 24px;
-}
-
-.attention-voice {
-	font-family: sans-serif;
-	font-size: 30px;
-}
-
-.loud-voice {
-	font-family: sans-serif;
-	font-size: clamp(36px, 5vw, 60px);
-}
-
-@media (min-width: 600px) {
-	.loud-voice {
-		font-weight: 700; /* or variable font */
+@layer typography {
+	body {
+		-webkit-font-smoothing: antialiased; 
+		/* because Brian said to -- $todo confirm */
 	}
-}
 
-:is(.calm-voice, p) em {
-	font-style: italic;
-}
+	.calm-voice, p, li {
+		font-family: sans-serif;
+		font-size: 1rem;
+		line-height: 1.4;
+	}
 
-:is(.calm-voice, p) strong {
-	font-weight: 700;
-}
+	.strong-voice {
+		font-family: sans-serif;
+		font-size: 24px;
+	}
 
-/* these would be scoped to section or to an article element */
-/* this is just a loose setting for now */
-/* or smaller group of article-like styles such as a <text-content> custom element */
-p + p {
-	margin-top: 1em;
-}
+	.attention-voice {
+		font-family: sans-serif;
+		font-size: 30px;
+	}
 
-h2 + p {
-	margin-top: 20px;
-}
+	.loud-voice {
+		font-family: sans-serif;
+		font-size: clamp(36px, 5vw, 60px);
+	}
 
-code {
-	font-family: monospace;
-	font-size: 1.1em;
-	color: green;
+	@media (min-width: 600px) {
+		.loud-voice {
+			font-weight: 700; /* or variable font */
+		}
+	}
+
+	:is(.calm-voice, p) em {
+		font-style: italic;
+	}
+
+	:is(.calm-voice, p) strong {
+		font-weight: 700;
+	}
+
+	/* these would be scoped to section or to an article element */
+	/* this is just a loose setting for now */
+	/* or smaller group of article-like styles such as a <text-content> custom element */
+	p + p {
+		margin-top: 1em;
+	}
+
+	h2 + p {
+		margin-top: 20px;
+	}
+
+	code {
+		font-family: monospace;
+		font-size: 1.1em;
+		color: green;
+	}
+
 }

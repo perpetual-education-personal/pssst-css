@@ -1,0 +1,24 @@
+
+@layer developer-styles {
+	body * {
+		border: 1px solid hsla(207, 100%, 80%, 1.00);
+		padding: 4px;
+	}
+
+	section:nth-of-type(odd) {
+		background-color: rgba(0,0,0,.03);
+	} /* good example of where we can talk about @layers */
+	/* this should be easily overwritable... or should it? */
+
+	picture img {
+		opacity: 0;
+	}
+
+	picture {
+		background-color: rgb( 0 0 0 / .1);
+	}
+
+	inner-column {
+		border-style: dashed;
+	}
+}

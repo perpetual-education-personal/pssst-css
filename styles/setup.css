@@ -1,50 +1,52 @@
 
 /* set global box-model so that padding and borders stay inside */
-html {
-  box-sizing: border-box;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
-} /* https://www.paulirish.com/2012/box-sizing-border-box-ftw */
-/* not sure... if this is really a winner anymore - with the inherit - let's reconsider $todo */
+@layer setup {
+	html {
+	  box-sizing: border-box;
+	}
+	*, *:before, *:after {
+	  box-sizing: inherit;
+	} /* https://www.paulirish.com/2012/box-sizing-border-box-ftw */
+	/* not sure... if this is really a winner anymore - with the inherit - let's reconsider $todo */
 
-a {
-	/* we use links as parent elements so often, that we can default to this */
-	display: block;
+	a {
+		/* we use links as parent elements so often, that we can default to this */
+		display: block;
 
-	/* remove defaults */
-	text-decoration: none;
-	color: inherit;
-}
+		/* remove defaults */
+		text-decoration: none;
+		color: inherit;
+	}
 
-/* put the classic link styles back */
-p a {
-	display: inline;
-	color: blue;
-	text-decoration: underline;
-}
+	/* put the classic link styles back */
+	p a {
+		display: inline;
+		color: blue;
+		text-decoration: underline;
+	}
 
-/* picture is inline by default, but we need it to accept block-level images in it */
-picture {
-	display: block;
-	overflow: hidden;
-}
+	/* picture is inline by default, but we need it to accept block-level images in it */
+	picture {
+		display: block;
+		overflow: hidden;
+	}
 
-/* globally set images to fill their parent and keep their ratio as the default */
-img {
-	display: block;
-	width: 100%;
-	height: auto;
-}
+	/* globally set images to fill their parent and keep their ratio as the default */
+	img {
+		display: block;
+		width: 100%;
+		height: auto;
+	}
 
-/* we generally need SVGs to act the same way as images */
-svg {
-  display: block;
-  width: 100%;
-  /* Safari seems to need height: 100% $todo - revisit */
-}
+	/* we generally need SVGs to act the same way as images */
+	svg {
+	  display: block;
+	  width: 100%;
+	  /* Safari seems to need height: 100% $todo - revisit */
+	}
 
-/* selects for autonomous customelements which are inline by default */
-:where(:not(:defined)) {
-	display: block;
+	/* selects for autonomous customelements which are inline by default */
+	:where(:not(:defined)) {
+		display: block;
+	}
 }
