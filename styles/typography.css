@@ -1,3 +1,5 @@
+@layer typography;
+
 /* Should we pull in @fonts here? */
 /* 
 	don't think you can... might have to be higher up (the top of) the food chain! 

@@ -1,2 +1,4 @@
-@import 'color.css';
-@import 'developer-styles.css';
+@layer settings;
+
+@import 'color.css' layer(settings);
+@import 'developer-styles.css' layer(settings);

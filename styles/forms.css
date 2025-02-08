@@ -1,8 +1,13 @@
 
 form {
-	border: 10px solid red;
+	
+	input {
+		&[type='text'] {
+			padding: 1em;
+		}
+	}
 }
 
-.button {
-	/* to button - or not to button... */
+.x-forms .x .form-x-label label span.label {
+	color: lime;
 }
